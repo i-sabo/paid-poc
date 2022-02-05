@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-var API_HOST = typeof window === 'undefined' ? 'http://localhost:8080' : '/api';
+//var API_HOST = process.env.API_HOST || '/api';
+var API_HOST = typeof window === 'undefined' ? 'http://backend' : '/api';
 
 exports.getAll = function () {
     var url = API_HOST + '/helloItems/';

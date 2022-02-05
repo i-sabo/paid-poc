@@ -1,4 +1,4 @@
-tes# react-boot-hello
+# react-boot-hello
 
 A "Hello World" using some interesting technologies.
 
