@@ -15,7 +15,7 @@ deployment:
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: "backend"
+fullnameOverride: "frontend"
 
 serviceAccount:
   # Specifies whether a service account should be created
