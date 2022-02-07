@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: paidpoc.azurecr.io/backend/hello-world
+  repository: paidpoc.azurecr.io/backend
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1.0"
@@ -85,3 +85,8 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+configs:
+  enabled: true
+  all:
+    SERVER_MESSAGE: "Hello from my awesome API!"
